@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('../fonts/KumbhSans/KumbhSans-Bold.woff2') format('woff2'),
+  url('../fonts/KumbhSans/KumbhSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('../fonts/KumbhSans/KumbhSans-Black.woff2') format('woff2'),
+  url('../fonts/KumbhSans/KumbhSans-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('../fonts/KumbhSans/KumbhSans-Thin.woff2') format('woff2'),
+  url('../fonts/KumbhSans/KumbhSans-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('../fonts/KumbhSans/KumbhSans-Light.woff2') format('woff2'),
+  url('../fonts/KumbhSans/KumbhSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('../fonts/KumbhSans/KumbhSans-Regular.woff2') format('woff2'),
+  url('../fonts/KumbhSans/KumbhSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('../fonts/KumbhSans/KumbhSans-ExtraLight.woff2') format('woff2'),
+  url('../fonts/KumbhSans/KumbhSans-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('../fonts/KumbhSans/KumbhSans-ExtraBold.woff2') format('woff2'),
+  url('../fonts/KumbhSans/KumbhSans-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('../fonts/KumbhSans/KumbhSans-Medium.woff2') format('woff2'),
+  url('../fonts/KumbhSans/KumbhSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('../fonts/KumbhSans/KumbhSans-SemiBold.woff2') format('woff2'),
+  url('../fonts/KumbhSans/KumbhSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-Bold.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-BlackItalic.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-Black.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-MediumItalic.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-BoldItalic.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-Regular.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-Medium.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-Light.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-LightItalic.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita/Gordita-Italic.woff2') format('woff2'),
+  url('../fonts/Gordita/Gordita-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
