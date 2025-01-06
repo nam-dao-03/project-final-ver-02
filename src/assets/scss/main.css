@@ -1,0 +1,392 @@
+.margin-bottom-8 {
+  margin-bottom: 0.8rem !important;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 2rem !important;
+}
+
+.margin-bottom-25 {
+  margin-bottom: 2.5rem !important;
+}
+
+.margin-bottom-129 {
+  margin-bottom: 12.9rem !important;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/src/assets/fonts/KumbhSans/KumbhSans-ExtraBold.woff2") format("woff2"), url("/src/assets/fonts/KumbhSans/KumbhSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/src/assets/fonts/KumbhSans/KumbhSans-Black.woff2") format("woff2"), url("/src/assets/fonts/KumbhSans/KumbhSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/src/assets/fonts/KumbhSans/KumbhSans-Bold.woff2") format("woff2"), url("/src/assets/fonts/KumbhSans/KumbhSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/src/assets/fonts/KumbhSans/KumbhSans-ExtraLight.woff2") format("woff2"), url("/src/assets/fonts/KumbhSans/KumbhSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/src/assets/fonts/KumbhSans/KumbhSans-SemiBold.woff2") format("woff2"), url("/src/assets/fonts/KumbhSans/KumbhSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/src/assets/fonts/KumbhSans/KumbhSans-Medium.woff2") format("woff2"), url("/src/assets/fonts/KumbhSans/KumbhSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/src/assets/fonts/KumbhSans/KumbhSans-Light.woff2") format("woff2"), url("/src/assets/fonts/KumbhSans/KumbhSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/src/assets/fonts/KumbhSans/KumbhSans-Regular.woff2") format("woff2"), url("/src/assets/fonts/KumbhSans/KumbhSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/src/assets/fonts/KumbhSans/KumbhSans-Thin.woff2") format("woff2"), url("/src/assets/fonts/KumbhSans/KumbhSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-BlackItalic.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-Bold.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-Black.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-LightItalic.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-Light.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-BoldItalic.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-Medium.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-Italic.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-MediumItalic.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gordita";
+  src: url("/src/assets/fonts/Gordita/Gordita-Regular.woff2") format("woff2"), url("/src/assets/fonts/Gordita/Gordita-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.auth {
+  display: flex;
+  height: 100vh;
+}
+.auth__logo {
+  color: var(--text-color);
+}
+.auth__brand {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  column-gap: 1.2rem;
+}
+.auth__brand span {
+  color: var(--text-color-primary);
+  font-family: "Gordita", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.auth__sign-in-form {
+  padding: 4rem 13.5rem;
+}
+.auth__heading {
+  color: var(--text-color-primary);
+  font-size: 3rem;
+  font-weight: 600;
+}
+.auth__subheading {
+  color: var(--text-color-secondary);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.auth__img {
+  height: 100%;
+  width: auto;
+  margin-left: auto;
+}
+
+.auth__form {
+  width: 40.4rem;
+}
+.auth__form-label {
+  color: var(--text-color-priamry);
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1rem 0;
+  display: block;
+}
+.auth__form-input {
+  width: 100%;
+  padding: 1.5rem 2.5rem 1.6rem 2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border-color-input);
+  color: var(--Text-Color-Text-3, #78778B);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.auth__form-remember {
+  display: flex;
+  align-items: center;
+}
+.auth__form-remember input {
+  display: none;
+}
+.auth__form-remember input:checked + .auth__form-remember-checkbox:after, .auth__form-remember input:checked + .auth__form-remember-checkbox:before {
+  display: block;
+}
+.auth__form-remember-checkbox {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 3px;
+  border: 1px solid var(--border-color-checkbox);
+  margin-top: -3px;
+  position: relative;
+}
+.auth__form-remember-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+  top: -1px;
+  left: -1px;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 3px;
+  border: 1px solid var(--button-color-priamry);
+  background-color: var(--button-color-priamry);
+  z-index: 1;
+}
+.auth__form-remember-checkbox:before {
+  content: url("/public/icons/check-box.svg");
+  position: absolute;
+  display: none;
+  top: -1px;
+  left: -1px;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 3px;
+  z-index: 200;
+}
+.auth__form-remember label {
+  color: var(--text-color-primary);
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-left: 0.9rem;
+}
+.auth__form-remember-forgot-password {
+  margin-left: auto;
+  color: var(--text-color-primary);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.auth__form-sign-up {
+  color: var(--border-color-checkbox);
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+}
+.auth__form-sign-up a {
+  color: var(--text-color-priamry);
+  position: relative;
+}
+.auth__form-sign-up a:after {
+  content: url("/public/icons/decoration-01.svg");
+  position: absolute;
+  top: 2.7rem;
+  left: 0;
+}
+
+.btn-submit {
+  border-radius: 1rem;
+  background-color: var(--button-color-priamry);
+  width: 100%;
+  height: 4.8rem;
+  cursor: pointer;
+  color: var(--text-color-priamry);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+html {
+  --text-color-priamry: #1B212D;
+  --text-color-secondary: #78778B;
+  --border-color-input: #F2F2F2;
+  --border-color-checkbox: #929EAE;
+  --button-color-priamry: #C8EE44;
+}
+
+html.dark {
+  --text-color: #FFF;
+  --text-color-2: #78778B;
+}
+
+/*# sourceMappingURL=main.css.map */
