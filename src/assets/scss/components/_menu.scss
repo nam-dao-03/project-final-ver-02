@@ -1,0 +1,45 @@
+.menu {
+  margin: 3rem 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  &__heading {
+    color: var(--text-color-priamry);
+    margin-right: auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  &__svg{
+    margin-right: 4.5rem;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    border-radius: 10rem;
+    background: var(--sidebar-color);
+    height: 4.8rem;
+    width: 21.5rem;
+    padding-left: .7rem;
+    padding-right: 1.5rem;
+    &-avatar {
+      width: 3.6rem;
+      height: 3.6rem;
+      border-radius: 3.6rem;
+      object-fit: cover;
+    }
+
+    &-user-name {
+      color: var(--text-color-priamry);
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-left: 1.2rem;
+    }
+
+    &-icon-dropdown {
+      margin-left: auto;
+      color: var(--text-color-priamry);
+    }
+  }
+}

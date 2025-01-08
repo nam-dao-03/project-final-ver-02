@@ -1,0 +1,9 @@
+.dashboard {
+  margin: 0 4rem 4.3rem 4rem;
+
+  &__total-card-list {
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+  }
+}

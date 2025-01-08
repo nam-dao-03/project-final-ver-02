@@ -1,0 +1,26 @@
+.auth__form {
+  &-label {
+    color: var(--text-color-priamry);
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1rem 0;
+    display: block;
+  }
+
+  &-input {
+    width: 100%;
+    padding: 1.5rem 2.5rem 1.6rem 2rem;
+    border-radius: 1rem;
+    background-color: var(--backgound-color-input);
+    border: 1px solid var(--border-color-input);
+    color: var(--text-color-secondary);
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    &::placeholder {
+      opacity: 0.5;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  }
+}

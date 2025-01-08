@@ -1,0 +1,18 @@
+.button-nav {
+  color: var(--border-color-checkbox);
+  width: 20rem;
+  padding: 1.4rem 0 1.4rem 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+  border-radius: 0.8rem;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: var(--button-color-priamry);
+    color: #1B212D;
+    transform: translateX(.3rem);
+  }
+}

@@ -1,0 +1,22 @@
+.auth {
+  //Logo
+  &__logo {
+    color: var(--text-color-priamry);
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    column-gap: 1.2rem;
+
+    & span {
+      color: var(--text-color-priamry);
+      font-family: "Gordita", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}

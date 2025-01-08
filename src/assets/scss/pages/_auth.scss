@@ -2,33 +2,13 @@
 .auth {
   display:flex;
   height: 100vh;
-//Logo
-  &__logo {
-    color: var(--text-color);
-  }
-
-  &__brand {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    column-gap: 1.2rem;
-
-    & span {
-      color: var(--text-color-primary);
-      font-family: "Gordita", sans-serif;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-    }
-  }
 
   &__sign-in-form {
     padding: 4rem 13.5rem;
   }
 
   &__heading {
-    color: var(--text-color-primary);
+    color: var(--text-color-priamry);
     font-size: 3rem;
     font-weight: 600;
   }
@@ -48,24 +28,6 @@
 
 .auth__form {
   width: 40.4rem;
-
-  &-label {
-    color: var(--text-color-priamry);
-    font-size: 1.4rem;
-    font-weight: 500;
-    padding: 1rem 0;
-    display: block;
-  }
-
-  &-input {
-    width: 100%;
-    padding: 1.5rem 2.5rem 1.6rem 2rem;
-    border-radius: 1rem;
-    border: 1px solid var(--border-color-input);
-    color: var(--Text-Color-Text-3, #78778B);
-    font-size: 1.4rem;
-    font-weight: 500;
-  }
 
   &-remember {
     display: flex;
@@ -114,7 +76,7 @@
       }
     }
     & label {
-      color: var(--text-color-primary);
+      color: var(--text-color-priamry);
       font-size: 1.4rem;
       font-weight: 500;
       margin-left: 0.9rem;
@@ -122,7 +84,7 @@
 
     &-forgot-password {
       margin-left: auto;
-      color: var(--text-color-primary);
+      color: var(--text-color-priamry);
       font-size: 1.4rem;
       font-weight: 500;
     }
@@ -137,10 +99,16 @@
     & a {
       color: var(--text-color-priamry);
       position: relative;
-      &:after{
+      & .form__decoration-sign-up{
         content: url("/public/icons/decoration-01.svg");
         position: absolute;
-        top: 2.7rem;
+        padding-top: 2.7rem;
+        left: 0;
+      }
+      & .form__decoration-sign-in{
+        content: url("/public/icons/decoration-02.svg");
+        position: absolute;
+        padding-top: 2.7rem;
         left: 0;
       }
     }
